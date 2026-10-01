@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+coverage/
+.env*.local
+.env
+*.tsbuildinfo
+npm-debug.log*
+
+# Local-only attendance import credentials and source workbooks
+.env.import.local
+scripts/import/input/
+*.xlsx
