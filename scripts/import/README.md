@@ -1,3 +1,4 @@
+
 # Attendance baseline importer
 
 This trusted CLI imports the one-time cumulative Excel baseline as of **2026-10-01**. It writes only `students` and `attendance_baselines`; it never writes `classes` or `attendance` and never creates historical daily attendance.
@@ -67,3 +68,4 @@ The pure workbook validation/normalization logic has synthetic-data tests only:
 ```bash
 npm run test:import
 ```
+
